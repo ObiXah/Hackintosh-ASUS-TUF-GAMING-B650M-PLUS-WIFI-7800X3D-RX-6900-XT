@@ -1,9 +1,12 @@
 # Hackintosh-ASUS-TUF-GAMING-B650M-PLUS-WIFI-7800X3D-RX-6900-XT
 
 
-# Target macOS
+# Target macOS and status
 
 Target Version: macOS Sonoma 14.4
+OpenCore Version: 0.9.9
+
+**Current status: Nothing is working :D**
 
 # Hardware Information
 
@@ -114,6 +117,10 @@ Target Version: macOS Sonoma 14.4
 <br/>
 
 # BIOS Settings
+
+<details>
+<summary>BIOS Settings</summary>
+
 ## Boot / Secure Boot
 - Secure boot state: **User**
 - OS Type: **Other OS**
@@ -138,3 +145,35 @@ Target Version: macOS Sonoma 14.4
 ## Onboard Devices Configuration / Serial Port Configuration
 - Serial Port: **Disabled**
 
+</details>
+
+## Application Slide Values for memmap.txt:
+```sh
+1363.08 MB @ 0x0B021000: slide=88
+  154.0 MB @   0x100000: slide=0
+  13.44 MB @ 0x0A290000: slide=81
+    2.0 MB @ 0x0A000000: slide=80
+```
+
+## Using DevirtualiseMmio from logfile
+
+```sh
+15:751 00:002 OCABC: MMIO devirt start
+15:753 00:002 OCABC: MMIO devirt 0xE0000000 (0x10000 pages, 0x800000000000100D) skip 0
+15:756 00:002 OCABC: MMIO devirt 0xF7000000 (0x7E00 pages, 0x800000000000100D) skip 0
+15:758 00:002 OCABC: MMIO devirt 0xFEE00000 (0x1 pages, 0x8000000000000001) skip 0
+15:761 00:002 OCABC: MMIO devirt 0xFEE01000 (0x11FF pages, 0x800000000000100D) skip 0
+15:763 00:002 OCABC: MMIO devirt 0x880000000 (0x20200 pages, 0x800000000000100D) skip 0
+15:765 00:002 OCABC: MMIO devirt end, saved 935936 KB
+15:768 00:002 OCABC: Only 168/256 slide values are usable!
+15:770 00:002 OCABC: Valid slides - 88-255
+```
+
+### Converting to decimal
+```sh
+0xE0000000    ---> 3758096384
+0xF7000000    ---> 4143972352
+0xFEE00000    ---> 4276092928
+0xFEE01000    ---> 4276097024
+0x880000000   ---> 36507222016
+```
