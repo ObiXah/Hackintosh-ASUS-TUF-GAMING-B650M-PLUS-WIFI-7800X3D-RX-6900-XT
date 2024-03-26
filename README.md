@@ -7,23 +7,15 @@ Target Version: macOS Sonoma 14.4
 
 # Hardware Information
 
-## CPU: AMD Ryzen 7 7800X3D 8-Core Processor
-
-- **Cores**: 8
-- **Threads**: 16
-- **SSE**: SSE4.2
-- **SSSE3**: Supported
-- **Codename**: Zen 4
-
-## Motherboard: TUF GAMING B650M-PLUS WIFI
-
-- **Manufacturer**: ASUSTeK COMPUTER INC.
-
-# Hardware
 - CPU: AMD Ryzen 7 7800X3D 8-Core Processor
+- Board: ASUS TUF Gaming B650M-Plus WiFi
+- RAM: Corsair Vengeance black DIMM Kit 32GB, DDR5-6000, CL30-36-36-76
+- GPU: PowerColor RX 6900 XT Red Devil Ultimate // Navi 21 XTXH (PCI Express 4.0 x16 1002 / 73AF, Rev C0)
+- SSD: Samsung 980 PRO 1TB PCIe 4.0 NVMe M.2
 
 <details>
 <summary>OCSysInfo</summary>
+
 ```sh
 ─ CPU
   └── AMD Ryzen 7 7800X3D 8-Core Processor           
@@ -35,7 +27,8 @@ Target Version: macOS Sonoma 14.4
 
 ─ Motherboard
   ├── Model: TUF GAMING B650M-PLUS WIFI
-  └── Manufacturer: ASUSTeK COMPUTER INC.
+  ├── Manufacturer: ASUSTeK COMPUTER INC.
+  └── BIOS: 2413 (2024/02/07)
 
 ─ GPU
   ├── AMD Radeon RX 6900 XT
@@ -110,15 +103,39 @@ Target Version: macOS Sonoma 14.4
       └── Vendor ID: 0x3299
 
 ─ Storage
-  └── WD_BLACK SN850X 2000GB
+  └── Samsung 980 PRO 1000GB
       ├── Type: NVMe
       ├── Connector: PCI Express
       └── Location: Internal
 ```
 
-
 </details>
-- Motherboard
-    - Model: TUF GAMING B650M-PLUS WIFI
-    - Manufacturer: ASUSTeK COMPUTER INC.
+
+<br/>
+<br/>
+
+# BIOS Settings
+## Boot / Secure Boot
+- Secure boot state: **User**
+- OS Type: **Other OS**
+- Secure Boot Mode: **Custom**
+
+## RAM Settings
+- **DOCP I / EXPO / XMP  loaded**
+    - DDR5-6000 30-36-36-76-2N-1.4
+## CPU Configuration
+- PSS Support: Enabled
+- NX Mode: Enabled
+- SVM Mode: Enabled
+## PCI Subsystem Settings
+- Above 4G Decoding: **Enabled**
+- Resize BAR Support: **Enabled**
+- SR-IOV Support: Disabled
+## USB Configuration
+- Legacy USB Support: Enabled
+- XHCI Hand-off: Enabled
+- USB Mass Storage Driver Support: Disabled
+
+## Onboard Devices Configuration / Serial Port Configuration
+- Serial Port: **Disabled**
 
