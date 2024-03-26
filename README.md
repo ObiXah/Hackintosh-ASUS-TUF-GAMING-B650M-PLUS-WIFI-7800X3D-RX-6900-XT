@@ -112,8 +112,6 @@ Target Version: macOS Sonoma 14.4
 </details>
 
 <br/>
-<br/>
-
 # BIOS Settings
 ## Boot / Secure Boot
 - Secure boot state: **User**
