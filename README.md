@@ -145,6 +145,10 @@ OpenCore Version: 0.9.9
 ## Onboard Devices Configuration / Serial Port Configuration
 - Serial Port: **Disabled**
 
+## NB Configuration
+- Primary Video Device: PCIE Video
+- Integrated Graphics: **Disabled**
+
 </details>
 
 ## Application Slide Values for memmap.txt:
