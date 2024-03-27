@@ -14,7 +14,7 @@ OpenCore Version: 0.9.9
 - Board: ASUS TUF Gaming B650M-Plus WiFi
 - RAM: Corsair Vengeance black DIMM Kit 32GB, DDR5-6000, CL30-36-36-76
 - GPU: PowerColor RX 6900 XT Red Devil Ultimate // Navi 21 XTXH (PCI Express 4.0 x16 1002 / 73AF, Rev C0)
-- SSD: Samsung 980 PRO 1TB PCIe 4.0 NVMe M.2
+- SSD: ADATA XPG Gammix S11 Pro 1TB PCIe 4.0 NVMe M.2
 
 <details>
 <summary>OCSysInfo</summary>
