@@ -4,9 +4,10 @@
 # Target macOS and status
 
 Target Version: macOS Sonoma 14.4
+
 OpenCore Version: 0.9.9
 
-**Current status: Nothing is working :D**
+**Current status: Installation is working :D**
 
 # Hardware Information
 
