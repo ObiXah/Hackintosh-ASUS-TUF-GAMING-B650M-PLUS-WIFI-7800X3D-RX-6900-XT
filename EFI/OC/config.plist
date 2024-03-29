@@ -110,6 +110,22 @@
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-IGPU-DISABLE.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-IGPU-DISABLE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BRG0.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BRG0.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -527,6 +543,8 @@
 			<dict>
 				<key>device-id</key>
 				<data>v3MAAA==</data>
+				<key>model</key>
+				<string>Radeon RX 6900 XT (XTXH)</string>
 				<key>shikigva</key>
 				<integer>128</integer>
 			</dict>
@@ -1719,7 +1737,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>agdpmod=pikera debug=0x100 -v keepsyms=1 -amfipassbeta revpatch=sbvmm</string>
+				<string>agdpmod=pikera debug=0x100 -v keepsyms=1 -amfipassbeta revpatch=sbvmm -radcodec</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
