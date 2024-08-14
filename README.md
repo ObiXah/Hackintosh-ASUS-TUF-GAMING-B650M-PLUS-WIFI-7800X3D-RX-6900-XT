@@ -13,6 +13,7 @@ OpenCore Version: 0.9.9
 
 - CPU: AMD Ryzen 7 7800X3D 8-Core Processor
 - Board: ASUS TUF Gaming B650M-Plus WiFi
+- - BIOS Version: 2.22.1284
 - RAM: Corsair Vengeance black DIMM Kit 32GB, DDR5-6000, CL30-36-36-76
 - GPU: PowerColor RX 6900 XT Red Devil Ultimate // Navi 21 XTXH (PCI Express 4.0 x16 1002 / 73AF, Rev C0)
 - SSD: ADATA XPG Gammix S11 Pro 1TB PCIe 4.0 NVMe M.2
