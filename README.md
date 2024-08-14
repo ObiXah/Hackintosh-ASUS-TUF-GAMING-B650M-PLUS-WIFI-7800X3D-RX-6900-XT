@@ -7,7 +7,8 @@ Target Version: macOS Sonoma 14.4
 
 OpenCore Version: 0.9.9
 
-**Current status: Installation is NOT working :D**
+**Current status: Installation is working :D and Sonoma is running**
+- WiFi + BT is not working!
 
 # Hardware Information
 
