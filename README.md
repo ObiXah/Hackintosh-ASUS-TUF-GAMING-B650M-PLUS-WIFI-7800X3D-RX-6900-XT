@@ -161,7 +161,7 @@ Discord: Install AMDfriend and run the following command:
 ```
 
 WoW Stutter:
-Check the refrtesh rate of the main display, in my case 120 Hz is wokring great while 174,88 Hz is causing stutter.
+Check the refresh rate of the main display, in my case 120 Hz is wokring great while 174,88 Hz is causing stutter.
 
 ## Application Slide Values for memmap.txt:
 ```sh
