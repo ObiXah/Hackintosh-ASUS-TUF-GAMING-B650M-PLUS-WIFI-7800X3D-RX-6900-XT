@@ -3,9 +3,9 @@
 
 # Target macOS and status
 
-Target Version: macOS Sonoma 14.4
+Target Version: macOS Sonoma 14.4 + macOS Ventura 13.7.6
 
-OpenCore Version: 0.9.9
+OpenCore Version: 1.0.5
 
 **Current status: Installation is working :D and Sonoma is running**
 - WiFi + BT is not working!
@@ -153,6 +153,15 @@ OpenCore Version: 0.9.9
 - Integrated Graphics: **Disabled**
 
 </details>
+
+## Tweaks
+Discord: Install AMDfriend and run the following command:
+```console
+./amdfriend --in-place --sign ~/Library/Application\ Support/discord/0.0.*/modules/discord_krisp/discord_krisp.node
+```
+
+WoW Stutter:
+Check the refrtesh rate of the main display, in my case 120 Hz is wokring great while 174,88 Hz is causing stutter.
 
 ## Application Slide Values for memmap.txt:
 ```sh
